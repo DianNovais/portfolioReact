@@ -12,6 +12,8 @@ export const Container = styled.div`
   overflow-x: hidden;
   height: 80vh;
   clear: both;
+ 
+  
 
   @media screen and (max-width: 900px) {
     overflow: auto;
@@ -30,6 +32,9 @@ export const Title = styled.h3<{themeDark: boolean}>`
 export const ContentAbout = styled.div`
   display: flex;
   height: 80%;
+  max-height: 500px;
+  margin: 0 auto;
+  max-width: 1200px;
 
   @media screen and (max-width: 900px) {
     height: 100%;
@@ -55,7 +60,7 @@ export const TextContent = styled.div<{themeDark: boolean}>`
 
   p {
     
-    overflow-y: scroll;
+    overflow-y: auto;
 
     &::-webkit-scrollbar {
       width: 6px;

@@ -6,9 +6,11 @@ export const Container = styled.div`
     justify-content: space-between;
     width: 90%;
     height: 200px;
+    max-width: 900px;
     box-shadow: 0 5px 10px #999;
     background: ${gradientColor};
     border-radius: 20px;
+    margin: 0 auto;
 
     img{
         object-fit: cover;

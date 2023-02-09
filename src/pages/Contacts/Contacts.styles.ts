@@ -13,8 +13,10 @@ export const Container = styled.div`
 export const Content = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100%;
     gap: 20px;
+
 
     @media screen and (max-width:900px) {
         flex-direction: column;
@@ -31,6 +33,7 @@ export const Form = styled.form`
     border-radius: 20px;
     padding: 20px;
     height: 90%;
+    max-width: 700px;
     color: #fff;
     z-index: 2;
 
@@ -104,6 +107,7 @@ export const Info = styled.div<{themeDark: boolean}>`
     align-items: center;
     padding: 20px;
     gap: 10px;
+    max-width: 700px;
 
     div{
         display: flex;
