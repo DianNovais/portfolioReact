@@ -17,7 +17,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 900px) {
     overflow: visible;
-    height: 100%;
+    height: auto;
   }
 `;
 
@@ -39,6 +39,7 @@ export const ContentAbout = styled.div`
   @media screen and (max-width: 900px) {
     height: 100%;
     flex-direction: column;
+    max-height: none;
   }
 `;
 
@@ -85,6 +86,8 @@ export const TextContent = styled.div<{themeDark: boolean}>`
   }
 
   @media screen and (max-width: 900px) {
+    flex: none;
+    height: 50%;
     p{
       overflow: visible;
     }
@@ -124,7 +127,7 @@ export const ArtContainer = styled.div`
 
   @media screen and (max-width: 900px) {
     flex: none;
-    height: 400px;
+    height: 50vh;
     border-radius: 0px 0px 10px 10px;
   }
 `;
