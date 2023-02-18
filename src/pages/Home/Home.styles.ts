@@ -16,7 +16,7 @@ export const Container = styled.div`
   
 
   @media screen and (max-width: 900px) {
-    overflow: auto;
+    overflow: visible;
     height: 100%;
   }
 `;
