@@ -70,7 +70,7 @@ const Header = () => {
         </ul>
       </C.ListOptions>
       <C.Copy themeDark={themeDark}>
-          <p>Copyright © Dian 2023 </p>
+          <p>Copyright © Dian 2024 </p>
       </C.Copy>
     </C.Container>
   );

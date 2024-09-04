@@ -33,6 +33,11 @@ const Qualifications = () => {
           status="11/2021 - 02/2022"
           un="SENAC"
         />
+        <QualificationsItems
+          title="E outros"
+          status="..."
+          un="..."
+        />
       </C.ItemsContainer>
     </C.Container>
   );

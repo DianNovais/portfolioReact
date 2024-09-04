@@ -3,7 +3,7 @@ import * as jqueryAnimation from "../../helpers/jqueryAnimations";
 import { Title } from "../Skills/Skills.styles";
 
 import { MdMail, MdPhone } from "react-icons/md";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import useData from "../../hooks/useData";
 
 const Contacts = () => {
@@ -48,12 +48,17 @@ const Contacts = () => {
             </div>
             <div>
                 <MdPhone/>
-                <b>Whatsapp: 77 99111-5142</b>
+                <b>Whatsapp: 77 99111-6028</b>
             </div>
 
             <div>
                 <FaLinkedin/>
-                <b>Linkedin: <a  href="https://www.linkedin.com/in/dian-novais-3872ab22b/">Clique aqui.</a></b>
+                <b>Linkedin: <a  href="https://www.linkedin.com/in/dian-novais-3872ab22b/" target="_blank">Clique aqui.</a></b>
+            </div>
+
+            <div>
+                <FaGithub/>
+                <b>GitHub: <a  href="https://github.com/DianNovais" target="_blank">Clique aqui.</a></b>
             </div>
             
             

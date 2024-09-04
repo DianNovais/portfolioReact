@@ -5,7 +5,7 @@ export const Item = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 180px;
+    height: 250px;
     border-radius: 20px;
     padding: 10px;
     background: #fff;
@@ -27,6 +27,7 @@ export const Item = styled.div`
         img{
             width: 50px;
             height: 50px;
+            object-fit: cover;
         }
     }
 

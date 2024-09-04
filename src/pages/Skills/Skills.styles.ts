@@ -22,6 +22,7 @@ export const Content = styled.div`
     flex-direction: column;
     overflow-y: scroll;
     height: 100%;
+    padding: 20px 0;
 
     @media screen and (max-width: 900px) {
         overflow-y: visible;

@@ -21,11 +21,7 @@ ChartJS.register(
   Legend
 );
 
-import { useState } from "react";
-
 import { Data } from "../../data/UserData";
-
-import { lightMain, mainColor } from "../../colors/colors";
 
 import SkillItem from "../../components/SkillItem/SkillItem";
 
@@ -35,6 +31,8 @@ import useData from "../../hooks/useData";
 const Skills = () => {
   const skill = Data;
 
+  //Chart Configs removed
+  /*
   const options = {
     responsive: true,
     scales: {
@@ -69,7 +67,7 @@ const Skills = () => {
         backgroundColor: lightMain,
       },
     ],
-  });
+  });*/
 
   jqueryAnimation.fadeInConatiner("#skillContainer");
 
@@ -79,13 +77,13 @@ const Skills = () => {
     <C.Container id="skillContainer">
       <C.Title themeDark={themeDark}>Habilidades</C.Title>
       <C.Content>
-        <C.GraphContainer>
+        {/*<C.GraphContainer>
           <div
             style={{ width: "90%", display: "flex", justifyContent: "center" }}
           >
             <Bar options={options} data={data} />
           </div>
-        </C.GraphContainer>
+        </C.GraphContainer>*/}
         <C.SkillContainer>
           {skill.map((item) => {
             return (

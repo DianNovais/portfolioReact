@@ -1,6 +1,6 @@
 import * as C from "./SkillItem.styles";
 import { MdStar } from "react-icons/md";
-import { JSXElementConstructor } from "react";
+import React from "react";
 
 type Props = {
   name: string;
@@ -10,7 +10,7 @@ type Props = {
 };
 
 const SkillItem = ({ name, description, link, stars }: Props) => {
-  const listStar: JSX.Element[] = [];
+  const listStar: React.ReactElement[] = [];
 
   const starsCount = () => {
     let i: number;

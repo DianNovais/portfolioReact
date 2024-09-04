@@ -22,30 +22,28 @@ const Home = () => {
           </div>
 
           <p>
-            Olá me chamo Dian e sou programador front-end. Desde cedo,
-            tenho uma paixão por tecnologia e estou animado para trabalhar nesta
-            área. Além disso, já tive a oportunidade de trabalhar em vários
+            Olá me chamo Dian e sou programador Full-Stack. Desde cedo,
+            tenho uma paixão por tecnologia e estou muito empolgado atuando nesta
+            área. Além da área de programação, já tive a oportunidade de trabalhar em vários
             setores, incluindo vendas, atendimento em uma loja de móveis e
-            aplicação de provas para o Ensino Médio. Minha jornada de
+            aplicação de provas para o Ensino Médio, trazendo habilidades também de comunicação para mim. Minha jornada de
             aprendizado começou desde cedo, sempre pesquisando e estudando sobre
             assuntos relacionados à tecnologia. Atualmente, tenho conhecimento
-            em <b>JAVASCRIPT, TYPESCRIPT, HTML, CSS, STYLED-COMPONENTS, BOOTSTRAP e o
-            framework REACT</b>. Além disso, estou familiarizado com
-            ferramentas extras como Git, Github e FTP FileZila. Além das
+            em diversas tecnólogias<b>(confira na página de minhas habibilidades)</b>. Além das
             habilidades técnicas, também valorizo minhas habilidades
             interpessoais, como boa comunicação, paciência, persistência e
             organização. Já realizei diversos projetos utilizando as tecnologias
-            mencionadas acima, todos disponíveis no meu <a target="_blank" href="https://github.com/DianNovais">Github</a>, e estou sempre
+            mencionadas na página de habilidades, todos disponíveis no meu <a target="_blank" href="https://github.com/DianNovais">Github</a>, estou sempre
             procurando aprender mais e expandir meus conhecimentos. Minhas metas
             profissionais a curto prazo incluem continuar estudando e aprendendo
             cada vez mais, agora realizando estudos em Análise e Desenvolvimento
-            de Sistemas. No longo prazo, desejo ser reconhecido como um
-            profissional Full-Stack competente e inovador na minha área de
-            atuação.
+            de Sistemas, cursos, e em diversos lugares como documentações, foruns e em todo lugar da internet. A longo prazo, desejo ser reconhecido como um
+            profissional Full-Stack extremamente competente e inovador na minha área de
+            atuação. Afinal minha pessoa é querer buscar sempre conhecer mais, com dom de aprender tecnologias.
           </p>
         </C.TextContent>
         <C.ArtContainer>
-          <a target='_blank' href="https://drive.google.com/uc?export=download&id=1-12uOaM7plDNBYh1hUdQxq1FMtliXw6O">Download CV</a>
+          <a target='_blank' href="https://drive.google.com/uc?export=download&id=1s3OlUXDbzH77siJZK-YOROkCFd1PubCs">Download CV</a>
         </C.ArtContainer>
       </C.ContentAbout>
     </C.Container>

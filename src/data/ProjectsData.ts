@@ -9,9 +9,25 @@ export type ItemProject = {
 
 export const ProjectsData: ItemProject[] = [
     {
+        id: 7,
+        title: "Veja o Repositório do Portfólio",
+        link: "",
+        linkGitHub: "https://github.com/DianNovais/portfolioReact",
+        img: "/img/projects/portfolio.png",
+        description: "Responsivo - Novo portfólio feito com React e suas bibliotecas, também Typescript, Styled-Components... Possíveis futuras melhorias.",
+    },
+    {
+        id: 6,
+        title: "Gerenciador de Estoque - backend - github e documentação",
+        link: "",
+        linkGitHub: "https://github.com/DianNovais/gerenciador-de-estoque-backend",
+        img: "/img/projects/gerenciadorback.png",
+        description: "Gerencie seu estoque com essa API restFull, com autentificação jwt, criptografia, banco de dados cloud MongoDB atlas, NodeJs e muitas outras para melhor eficiência e segurança. Possível diversas melhorias futuras.",
+    },
+    {
         id: 0,
         title: "Ação Gratuita - Rifas Grátis - Git Privado",
-        link: "https://acaogratuita.netlify.app",
+        link: "https://acaogratuita1.netlify.app",
         linkGitHub: "",
         img: "/img/projects/acao.png",
         description: " (Responsivo, Front em versão de teste), Site feito com diversos tipos de tecnologias no frontend e no backend, como autentificação, criptografia, jwt, banco de dados cloud, API NodeJs, React e muitas outras para melhor eficiência e segurança.",
