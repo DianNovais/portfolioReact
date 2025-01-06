@@ -14,7 +14,7 @@ export const ProjectsData: ItemProject[] = [
         link: "",
         linkGitHub: "https://github.com/DianNovais/gerenciador-de-estoque-front",
         img: "/img/projects/gerenciadorfront.png",
-        description: "Gerencie seu estoque com essa software junto com o backend do mesmo dispónivel também no meu github, com autentificação jwt, criptografia, banco de dados cloud MongoDB atlas, NodeJs e muitas outras para melhor eficiência e segurança. Possível diversas melhorias futuras.",
+        description: "Gerencie seu estoque com essa software junto com o backend do mesmo dispónivel também no meu github, tecnologia usada, React, Typescript, Victory, autentificação jwt, criptografia, banco de dados cloud MongoDB atlas, NodeJs e muitas outras para melhor eficiência e segurança. Possível diversas melhorias futuras.",
     },
     {
         id: 7,
