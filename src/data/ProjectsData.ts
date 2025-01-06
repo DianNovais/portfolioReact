@@ -9,6 +9,14 @@ export type ItemProject = {
 
 export const ProjectsData: ItemProject[] = [
     {
+        id: 8,
+        title: "Gerenciador de Estoque - FrontEnd - em breve video e readme",
+        link: "",
+        linkGitHub: "https://github.com/DianNovais/gerenciador-de-estoque-front",
+        img: "/img/projects/gerenciadorfront.png",
+        description: "Gerencie seu estoque com essa software junto com o backend do mesmo dispónivel também no meu github, com autentificação jwt, criptografia, banco de dados cloud MongoDB atlas, NodeJs e muitas outras para melhor eficiência e segurança. Possível diversas melhorias futuras.",
+    },
+    {
         id: 7,
         title: "Veja o Repositório do Portfólio",
         link: "",
@@ -18,7 +26,7 @@ export const ProjectsData: ItemProject[] = [
     },
     {
         id: 6,
-        title: "Gerenciador de Estoque - backend - github e documentação",
+        title: "Gerenciador de Estoque - Backend - github e documentação",
         link: "",
         linkGitHub: "https://github.com/DianNovais/gerenciador-de-estoque-backend",
         img: "/img/projects/gerenciadorback.png",

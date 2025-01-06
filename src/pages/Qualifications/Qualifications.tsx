@@ -34,7 +34,7 @@ const Qualifications = () => {
           un="SENAC"
         />
         <QualificationsItems
-          title="E outros"
+          title="Outros"
           status="..."
           un="..."
         />
