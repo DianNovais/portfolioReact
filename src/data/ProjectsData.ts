@@ -14,7 +14,7 @@ export const ProjectsData: ItemProject[] = [
         link: "",
         linkGitHub: "https://github.com/DianNovais/gerenciador-de-estoque-front",
         img: "/img/projects/gerenciadorfront.png",
-        description: "Gerencie seu estoque com essa software junto com o backend do mesmo dispónivel também no meu github, tecnologia usada, React, Typescript, Victory, autentificação jwt, criptografia, banco de dados cloud MongoDB atlas, NodeJs e muitas outras para melhor eficiência e segurança. Possível diversas melhorias futuras.",
+        description: "Gerencie seu estoque com esse software. Tecnológias usadas: React, Typescript, Victory, jwt, criptografia, bd cloud MongoDB atlas, NodeJs e muitas outras para melhor eficiência e segurança. Desenvolvendo um novo no momento.",
     },
     {
         id: 7,
@@ -46,7 +46,7 @@ export const ProjectsData: ItemProject[] = [
         link: "https://coindadisciplina.netlify.app",
         linkGitHub: "https://github.com/DianNovais/coin_da_disciplina/",
         img: "/img/projects/coindadisciplina.png",
-        description: " (Responsivo, Futuras atualizações em dev) Gerencie seu tempo gastando e ganhando Coin da Disciplina. App feito para gerenciar seu tempo, ganhe por tarefas difíceis e gaste com diversão. [HTML, CSS, JAVASCRIPT, ReactJs + Vite, LocalStorage]",
+        description: " Gerencie seu tempo gastando e ganhando Coin da Disciplina. App feito para gerenciar seu tempo, ganhe por tarefas difíceis e gaste com diversão. [HTML, CSS, JAVASCRIPT, ReactJs + Vite, LocalStorage]",
     },
     {
         id: 2,
