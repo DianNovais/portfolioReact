@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { darkGray, gradientColor, mainColor } from "../../colors/colors";
-import { blueGrey } from "@mui/material/colors";
 
 export const Container = styled.div`
     display: flex;
