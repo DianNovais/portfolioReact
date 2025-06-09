@@ -3,6 +3,8 @@ import * as C from "./App.Styles";
 
 // hooks
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import useData from "./hooks/useData";
+import { useEffect } from "react";
 
 // Components
 
@@ -15,9 +17,11 @@ import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import Qualifications from "./pages/Qualifications/Qualifications";
 import Contacts from "./pages/Contacts/Contacts";
-import useData from "./hooks/useData";
+
+
+
 import { darkGray, lightGray, mainColor } from "./colors/colors";
-import { useEffect } from "react";
+import ProjectsStudy from "./pages/ProjectsStudy/ProjectsStudy";
 
 const App = () => {
   const {themeDark } = useData();
@@ -42,6 +46,7 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/project" element={<Projects />} />
+                <Route path="/projectsstudy" element={<ProjectsStudy />} />
                 <Route path="/qualifications" element={<Qualifications />} />
                 <Route path="/contacts" element={<Contacts />} />
               </Routes>
@@ -49,7 +54,7 @@ const App = () => {
           </C.ContainerMain>
         </BrowserRouter>
         <C.Copy themeDark={themeDark}>
-          <p>Copyright © Dian 2024 </p>
+          <p>Copyright © Dian 2025 </p>
         </C.Copy>
       </C.Container>
     </>

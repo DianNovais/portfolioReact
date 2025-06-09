@@ -20,14 +20,15 @@ const SkillItem = ({ name, description, link, stars }: Props) => {
     }
   };
 
-  starsCount();
+  // Contagem de estrela(Valor apenas fictício) retirado.
+  // starsCount();
 
   return (
     <C.Item>
       <div className="topContainer">
         <div className="titleContent">
           <h3>{name}</h3>
-          <div className="starContainer">{listStar}</div>
+          <div className="starContainer">{}</div>
         </div>
         <img src={link} alt={name} />
       </div>

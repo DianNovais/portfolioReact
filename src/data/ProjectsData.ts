@@ -1,83 +1,36 @@
 export type ItemProject = {
     id: number;
     title: string;
-    link: string;
-    linkGitHub: string;
+    link: string | null;
+    linkGitHub: string | null;
     img: string;
     description: string;
+    video?: string | null;
+    technologies: string[];
+    functions?: string; 
 }
 
 export const ProjectsData: ItemProject[] = [
     {
-        id: 8,
-        title: "Gerenciador de Estoque - FrontEnd - em breve video e readme",
-        link: "",
-        linkGitHub: "https://github.com/DianNovais/gerenciador-de-estoque-front",
-        img: "/img/projects/gerenciadorfront.png",
-        description: "Gerencie seu estoque com esse software. Tecnológias usadas: React, Typescript, Victory, jwt, criptografia, bd cloud MongoDB atlas, NodeJs e muitas outras para melhor eficiência e segurança. Desenvolvendo um novo no momento.",
-    },
-    {
-        id: 7,
-        title: "Veja o Repositório do Portfólio",
-        link: "",
-        linkGitHub: "https://github.com/DianNovais/portfolioReact",
-        img: "/img/projects/portfolio.png",
-        description: "Responsivo - Novo portfólio feito com React e suas bibliotecas, também Typescript, Styled-Components... Possíveis futuras melhorias.",
-    },
-    {
-        id: 6,
-        title: "Gerenciador de Estoque - Backend - github e documentação",
-        link: "",
-        linkGitHub: "https://github.com/DianNovais/gerenciador-de-estoque-backend",
-        img: "/img/projects/gerenciadorback.png",
-        description: "Gerencie seu estoque com essa API restFull, com autentificação jwt, criptografia, banco de dados cloud MongoDB atlas, NodeJs e muitas outras para melhor eficiência e segurança. Possível diversas melhorias futuras.",
-    },
-    {
-        id: 0,
-        title: "Ação Gratuita - Rifas Grátis - Git Privado",
-        link: "https://acaogratuita1.netlify.app",
-        linkGitHub: "",
-        img: "/img/projects/acao.png",
-        description: " (Responsivo, Front em versão de teste), Site feito com diversos tipos de tecnologias no frontend e no backend, como autentificação, criptografia, jwt, banco de dados cloud, API NodeJs, React e muitas outras para melhor eficiência e segurança.",
-    },
-    {
         id: 1,
-        title: "Coin da Disciplina",
-        link: "https://coindadisciplina.netlify.app",
-        linkGitHub: "https://github.com/DianNovais/coin_da_disciplina/",
-        img: "/img/projects/coindadisciplina.png",
-        description: " Gerencie seu tempo gastando e ganhando Coin da Disciplina. App feito para gerenciar seu tempo, ganhe por tarefas difíceis e gaste com diversão. [HTML, CSS, JAVASCRIPT, ReactJs + Vite, LocalStorage]",
+        title: "Ação Gratuita - Rifas Grátis - 2022 - FrontEnd e Backend Privado",
+        link: "https://acaogratuita1.netlify.app",
+        linkGitHub: null,
+        video: null, 
+        img: "/img/projects/acao.png",
+        description: "Criação de rifas digitais gratuitas, através de anúncios e patrocínios, cada usuário pode entrar e cadastrar gratuitamente, adquirir um bilhete por cada sorteio a cada 24 horas.",
+        technologies: ["javascript", "mongodb", "nodejs", "react", "jwt", "express", "styled-components", "html", "recaptcha"],
+        functions: "No site tem diversas funções e caracteristicas, algumas delas são, login com o google, resgate de bilhetes a cada 24 horas, recaptcha para verificação, captura de ip, diversas verificações, tela de bilhetes resgatados, esquema de moedas, referências e muito mais, tem o Painel admin incompleto, com busca do número e bilhete sorteado com info do usuário, criação de rifas e demais funções."
     },
     {
         id: 2,
-        title: "Gerador Mega-Sena.",
-        link: "https://gereaqui-megasena.netlify.app",
-        linkGitHub: "https://github.com/DianNovais/gereaqui-megasena",
-        img: "/img/projects/gereaqui.png",
-        description: " (Responsivo) Gerador de números que mais sairam nos ultimos concurso da mega-sena.[HTML, CSS, Javascript, BootStrap, e Fetch para consumir a API das lotérias.]",
-    },
-    {
-        id: 3,
-        title: "DiDeveloper",
-        link: "https://dideveloper.netlify.app/",
-        linkGitHub: "#",
-        img: "/img/projects/didev.png",
-        description: " (Responsivo) Site onde reunir alguns templates que fiz.[Reactjs, react-router-dom, LocalStorage, HTML, CSS, Javascript]",
-    },
-    {
-        id: 4,
-        title: "Estacionamento Local",
-        link: "https://github.com/DianNovais/parkingmanage",
-        linkGitHub: "https://github.com/DianNovais/parkingmanage",
-        img: "/img/projects/estacionamento.png",
-        description: " (Ainda não responsivo) Gerencie varios estacionamento em sua máquina local. [Reactjs, API-Context, LocalStorage, HTML, CSS, Javascript]",
-    },
-    {
-        id: 5,
-        title: "Notes Online",
-        link: "#",
-        linkGitHub: "https://github.com/DianNovais/mynotesonline",
-        img: "/img/projects/notesimg.png",
-        description: "(Resposivo e DESATIVADO pelo banco de dados). [Reactjs, HTML, CSS, Javascript, consumo de API com Axios, Express, Node.js, MongoDB.]",
-    },
+        title: "DicVetores - 2025 - FrontEnd e Backend Privado",
+        link: null,
+        linkGitHub: null,
+        video: 'https://youtu.be/3YR6zM24hFI?si=VcAKt5UBFhlkFLxu', 
+        img: "/img/projects/dicvetores.png",
+        description: "Site destinado a venda de vetores para corte a laser e cnc router, entrega facilidade em comprar e obter vetores. Todo projeto foi feito pensando em economizar na base do possível uma idéia de MVC. Com esse projeto foi possível melhorar mais ainda as habilidades em typescript, firebase e em lógica.",
+        technologies: ["typescript", "firebase", "nodejs", "react", "express", "tailwind"],
+        functions: "O site tem login com authenticate do firebase e também uso do firestore, filtro de pesquisa local na home e na sessão de vetores comprados, transações, painel admin separado do front (incompleto). O site tem potêncial para futuras atualizações como gateway de pagamento para automação, paginação e melhora no mecanismo de busca"
+    }
 ];

@@ -10,7 +10,7 @@ const Home = () => {
   jqueryAnimation.fadeInConatiner("#ContainerHome");
   jqueryAnimation.typedText(title, ["Minha História.", "Quem sou ?"]);
 
-  const {themeDark} = useData();
+  const { themeDark } = useData();
 
   return (
     <C.Container id="ContainerHome">
@@ -22,28 +22,25 @@ const Home = () => {
           </div>
 
           <p>
-            Olá me chamo Dian e sou programador Full-Stack. Desde cedo,
-            tenho uma paixão por tecnologia e estou muito empolgado atuando nesta
-            área. Além da área de programação, já tive a oportunidade de trabalhar em vários
-            setores, incluindo vendas, atendimento em uma loja de móveis e
-            aplicação de provas para o Ensino Médio, trazendo habilidades também de comunicação para mim. Minha jornada de
-            aprendizado começou desde cedo, sempre pesquisando e estudando sobre
-            assuntos relacionados à tecnologia. Atualmente, tenho conhecimento
-            em diversas tecnólogias<b>(confira na página de minhas habibilidades)</b>. Além das
-            habilidades técnicas, também valorizo minhas habilidades
-            interpessoais, como boa comunicação, paciência, persistência e
-            organização. Já realizei diversos projetos utilizando as tecnologias
-            mencionadas na página de habilidades, todos disponíveis no meu <a target="_blank" href="https://github.com/DianNovais">Github</a>, estou sempre
-            procurando aprender mais e expandir meus conhecimentos. Minhas metas
-            profissionais a curto prazo incluem continuar estudando e aprendendo
-            cada vez mais, agora realizando estudos em Análise e Desenvolvimento
-            de Sistemas, cursos, e em diversos lugares como documentações, foruns e em todo lugar da internet. A longo prazo, desejo ser reconhecido como um
-            profissional Full-Stack extremamente competente e inovador na minha área de
-            atuação. Afinal minha pessoa é querer buscar sempre conhecer mais, com dom de aprender tecnologias.
+            Olá me chamo Dian e sou programador Full-Stack. Desde cedo, tenho
+            uma paixão por tecnologia e estou muito empolgado nesta área. Venho
+            me dedicando a muito tempo na área, buscando todos os dias praticar
+            e aprender. <br></br><br></br>
+            Além da área de programação, já tive a oportunidade de trabalhar em
+            vários setores, incluindo vendas, atendimento em uma loja de móveis
+            e aplicação de provas para o Ensino Médio, trazendo habilidades
+            também de comunicação para mim. <br></br><br></br>
+            Acesse minhas habilidades ou projetos e confiram algumas das minhas habilidades e vivências. Estou disposto a
+            aprender qualquer outra nova tecnologia.
           </p>
         </C.TextContent>
         <C.ArtContainer>
-          <a target='_blank' href="https://drive.google.com/uc?export=download&id=1s3OlUXDbzH77siJZK-YOROkCFd1PubCs">Download CV</a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/uc?export=download&id=1s3OlUXDbzH77siJZK-YOROkCFd1PubCs"
+          >
+            Download CV
+          </a>
         </C.ArtContainer>
       </C.ContentAbout>
     </C.Container>

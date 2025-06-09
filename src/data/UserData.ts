@@ -111,4 +111,13 @@ export const Data: DataArray[] = [
     description:
       "Usado para fazer o versionamento, gerenciar repositórios, branchs e os códigos, muito bom para ser usado em equipe, usado em todos meus projetos para gerenciar o código de forma segura. Um sistema de controle de versão distribuído amplamente utilizado para gerenciar e colaborar em projetos de código.",
   },
+  
+  {
+    id: 14,
+    stars: 5,
+    name: "Tailwind",
+    svg: "/img/tailwind.svg",
+    description:
+      "Com a descontinuação do styled-componente agora é hora de usar algo novo, com suas classes utilitárias usamos para desenvolver o site dicvetores. framework CSS visando a utilidade",
+  },
 ];

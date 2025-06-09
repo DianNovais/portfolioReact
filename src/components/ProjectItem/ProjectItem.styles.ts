@@ -1,18 +1,19 @@
 import styled from "styled-components";
-import { gradientColor, mainColor } from "../../colors/colors";
+import { darkGray, gradientColor, mainColor } from "../../colors/colors";
+import { blueGrey } from "@mui/material/colors";
 
 export const Container = styled.div`
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    height: 200px;
-    max-width: 900px;
-    box-shadow: 0 5px 10px #999;
+    width: 100%;
+    max-width: 1200px;
+    height: 400px;
     background: ${gradientColor};
-    border-radius: 20px;
-    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 5px;
 
-    img{
+    .imgProject{
         object-fit: cover;
         height: 100%;
         width: 200px;
@@ -20,19 +21,20 @@ export const Container = styled.div`
         filter: grayscale(90%);
     }
 
-    @media screen and (max-width: 900px){
-        img{
-            display: none;
-        }
+    @media screen and (min-width: 1100px){
+        height: 400px;
     }
 
-    @media screen and (max-width: 500px){
-        height: 250px;
+    @media screen and (max-width: 900px){
+        .imgProject{
+            display: none;
+        }
     }
 `;
 
 export const Content = styled.div`
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
     color: ${mainColor};
@@ -41,11 +43,33 @@ export const Content = styled.div`
         padding: 10px;
     }
 
-    p{
-        padding: 10px;
+    h3{
+        padding-left: 10px;
     }
 
-    div{
+    p{
+        padding: 10px;
+        margin-bottom: 10px;
+        overflow-y: auto;
+        max-width: 1000px;
+        height: 60px;
+        margin: 0px 10px;
+        border-radius: 10px;
+    }
+
+    .technologies{
+        display: flex;
+        gap: 5px;
+        padding: 10px;
+
+        img{
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+        }
+    }
+
+    .containerLinks{
         display: flex;
         height: 40px;
 
@@ -60,7 +84,7 @@ export const Content = styled.div`
             flex: 1;
 
             &:hover{
-                border: 2px solid white;
+                border: 1px solid white;
             }
         }
         .github{
@@ -68,11 +92,16 @@ export const Content = styled.div`
         }
         .preview{
             border-radius: 0px 0px 10px 0px;
+            background: ${mainColor};
+        }
+
+        .youtube{
+            background: red;
         }
     }
 
     @media screen and (max-width: 900px) {
-        div {
+        .containerLinks {
             .github{
                 border-radius: 0px 0px 0px 10px;
             }

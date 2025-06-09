@@ -55,7 +55,12 @@ const Header = () => {
 
           <C.LinkElem to="/project">
             <MdCode></MdCode>
-            <span>Meus Projetos</span>
+            <span>Projetos</span>
+          </C.LinkElem>
+
+          <C.LinkElem to="/projectsstudy">
+            <MdCode></MdCode>
+            <span>Projetos de Estudos</span>
           </C.LinkElem>
 
           <C.LinkElem to="/qualifications">
@@ -70,7 +75,7 @@ const Header = () => {
         </ul>
       </C.ListOptions>
       <C.Copy themeDark={themeDark}>
-          <p>Copyright © Dian 2024 </p>
+          <p>Copyright © Dian 2025 </p>
       </C.Copy>
     </C.Container>
   );

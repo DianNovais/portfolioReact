@@ -9,17 +9,22 @@ import useData from "../../hooks/useData";
 const Qualifications = () => {
   jqueryAnimation.fadeInConatiner("#qualificationsContainer");
 
-  const {themeDark} = useData();
+  const { themeDark } = useData();
 
   return (
     <C.Container id="qualificationsContainer">
       <Title themeDark={themeDark}>Capacitações</Title>
-      <C.Info>°Para mais informações faça download do meu cv em SOBRE MIM.</C.Info>
-      <C.Info>°Algumas capacitações com certificações abaixo, capacitações sem certificações não apareceram aqui, para ver mais habilidades, vá a sessão HABILIDADES.</C.Info>
+
+      <C.Info>Entre em contato para o envio dos certificados</C.Info>
 
       <C.ItemsContainer>
         <QualificationsItems
-          title="Analise e Desenvolvimento de Sistemas"
+          title="React Native - Aprenda criar aplicativos nativos para Android e iOS do zero ao avançado usando JavaScript."
+          status="Em progresso"
+          un="UDEMY"
+        />
+        <QualificationsItems
+          title="Análise e Desenvolvimento de Sistemas"
           status="Cursando o superior no momento"
           un="UNOPAR"
         />
@@ -33,11 +38,7 @@ const Qualifications = () => {
           status="11/2021 - 02/2022"
           un="SENAC"
         />
-        <QualificationsItems
-          title="Outros"
-          status="..."
-          un="..."
-        />
+        <QualificationsItems title="Outros" status="..." un="..." />
       </C.ItemsContainer>
     </C.Container>
   );
