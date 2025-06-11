@@ -97,11 +97,10 @@ export const TextContent = styled.div<{themeDark: boolean}>`
 export const ArtContainer = styled.div`
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   flex: 1;
   height: 100%;
   border-radius: 0px 20px 20px 0px;
-  background: url("/img/art.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
